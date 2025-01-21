@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Модальное Окно</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+  
+<body>
+    <button class="primary" onclick="window.dialog.showModal();">Открыть окно</button>
+
+  <dialog id="dialog">
+	  <h2>Модельное Окно</h2>
+	  <p>Приветственное диалоговое окно!</p>
+	  <p>Приветсвую Вас!</p>
+	      <button onclick="window.dialog.close();" aria-label="close" class="x">❌</button>
+  </dialog>
+  
+</body>
+</html>
